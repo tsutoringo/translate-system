@@ -9,7 +9,7 @@ start = async () => {
     var translateSystem = require('translate-system');
     var t = new translateSystem('./languages/');
     await t.init()
-    console.log(t.trans('message.Error',"English"))
+    console.log(t.trans('message.Error',"English")) //=> hoge
 }
 start()
 ```
