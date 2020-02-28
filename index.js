@@ -21,9 +21,7 @@ class translateSystem {
             if(!(last)) return string;
             for(var i=1;paths.length>i;i++) {
                 last = last[paths[i]]
-                if(!(last)) {
-                    return string;
-                }
+                if(!(last)) return string;
             }
             return last;
         } 
