@@ -14,3 +14,4 @@ start = async () => {
 }
 start()
 ```
+languagesファイルに追加することができます
