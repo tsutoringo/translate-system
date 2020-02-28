@@ -29,9 +29,3 @@ class translateSystem {
         } 
     }
 }
-start = async () => {
-    var t = new translateSystem('./languages/');
-    await t.init()
-    console.log(t.trans('message.Error',"English"))
-}
-start()
