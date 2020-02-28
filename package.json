@@ -1,11 +1,11 @@
 {
   "name": "translate-system",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "translate-system is like to minecraft's translate system",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "tsutoringo",
   "license": "ISC"
 }
