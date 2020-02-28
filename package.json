@@ -6,6 +6,14 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC"
+  "author": "tsutoringo",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tsutoringo/translate-system.git"
+  },
+  "bugs": {
+    "url": "https://github.com/tsutoringo/translate-system/issues"
+  },
+  "homepage": "https://github.com/tsutoringo/translate-system#readme"
 }
