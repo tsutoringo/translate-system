@@ -32,3 +32,4 @@ class translateSystem {
         } 
     }
 }
+module.exports = translateSystem;
