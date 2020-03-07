@@ -19,7 +19,7 @@ class translateSystem {
     }
     trans( string, language = this.option.defaultLanguage, datas={} ) {
         if(!(this.languages[language])) language = this.option.defaultLanguage;
-        if(this.languages[language][string]) return this.replaceDate(this.languages[language][string]);
+        if(this.languages[language][string]) return this.replaceDate(this.languages[language][string],datas);
         else {
             var paths = string.split(".");
             var last  = this.languages[language][paths[0]];
@@ -28,7 +28,7 @@ class translateSystem {
                 last = last[paths[i]]
                 if(!(last)) return string;
             }
-            return this.replaceDate(last,data);
+            return this.replaceDate(last,datas);
         } 
     }
 }
