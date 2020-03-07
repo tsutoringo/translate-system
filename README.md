@@ -10,7 +10,7 @@ start = async () => {
     var t = new translateSystem('./languages/');
     await t.init()
     console.log(t.trans('message.Error',"English")) //=> hoge
-    console.log(t.trans('message.Error',"Japan",{data: 50})) //=> ほげ＾～
+    console.log(t.trans('message.Error',"Japan",{data: 50})) //=> ほげ＾～50
 }
 start()
 ```
